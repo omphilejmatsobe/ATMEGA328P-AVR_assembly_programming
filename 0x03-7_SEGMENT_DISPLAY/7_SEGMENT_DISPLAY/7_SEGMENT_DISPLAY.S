@@ -1,5 +1,5 @@
 ; Created: 2024/04/23 17:14:23
-; Author : Omphile matsobe & Seluleko Zwane
+; Author : Omphile matsobe
 ;
 ;;; Allow us to use names like "PORTB" && "PORTD" for ports
 
