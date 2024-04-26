@@ -1,7 +1,7 @@
 ; Created: 2024/04/23 17:14:23
 ; Author : Omphile matsobe
 ;
-;;; Allow us to use names like "PORTB" && "PORTD" for ports
+;;; Allow me to use names like "PORTB" && "PORTD" for ports
 
 #define __SFR_OFFSET 0  
 #include   "avr/io.h"
