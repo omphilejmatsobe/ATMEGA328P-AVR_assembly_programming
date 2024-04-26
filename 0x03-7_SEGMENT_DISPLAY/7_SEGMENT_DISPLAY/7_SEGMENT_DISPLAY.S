@@ -112,29 +112,29 @@ zero:
 
 one:  
          cbi      PORTB,0 ;turn port 8 OFF
-         cbi      PORTD,7 ;turn port 7 ON
-         cbi      PORTD,6 ;turn port 6 ON
-         cbi      PORTD,5 ;turn port 5 ON
+         cbi      PORTD,7 ;turn port 7 OFF
+         cbi      PORTD,6 ;turn port 6 OFF
+         cbi      PORTD,5 ;turn port 5 OFF
          sbi      PORTD,4 ;turn port 4 ON
          sbi      PORTD,3 ;turn port 3 ON
-         cbi      PORTD,2 ;turn port 2 ON
+         cbi      PORTD,2 ;turn port 2 OFF
          jmp      checkreading
 
 two:  
-         sbi      PORTB,0 ;turn port 8 OFF
+         sbi      PORTB,0 ;turn port 8 ON
          cbi      PORTD,7 ;turn port 7 OFF
          sbi      PORTD,6 ;turn port 6 ON
          sbi      PORTD,5 ;turn port 5 ON
          cbi      PORTD,4 ;turn port 4 OFF
-         sbi      PORTD,3 ;turn port 3 OFF
-         sbi      PORTD,2 ;turn port 2 OFF
+         sbi      PORTD,3 ;turn port 3 ON
+         sbi      PORTD,2 ;turn port 2 ON
          jmp      checkreading
 
 three:  
-         sbi      PORTB,0 ;turn port 8 OFF
-         cbi      PORTD,7 ;turn port 7 ON
-         cbi      PORTD,6 ;turn port 6 ON
-         sbi      PORTD,5 ;turn port 5 OFF
+         sbi      PORTB,0 ;turn port 8 ON
+         cbi      PORTD,7 ;turn port 7 OFF
+         cbi      PORTD,6 ;turn port 6 OFF
+         sbi      PORTD,5 ;turn port 5 ON
          sbi      PORTD,4 ;turn port 4 ON
          sbi      PORTD,3 ;turn port 3 ON
          sbi      PORTD,2 ;turn port 2 ON
