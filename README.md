@@ -2,7 +2,7 @@
 
 # Low-Level Programming 
 
-Let's learn AVR assembly programming with ATMEGA328P microprocessor. This is the first step to learning low-level programming.
+Let's learn AVR assembly programming with an ATMEGA328P microprocessor. This is the first step to learning low-level programming.
 
 ## Introduction
 
@@ -14,7 +14,7 @@ instructions in symbolic code and a more understandable form.
 
 
 ## General
-* Assembly is not fun, but is fun.
+* Assembly is not the easiest but can make things easier.
 
 ## Projects:
 4. [0x03](https://github.com/omphilejmatsobe/ATMEGA328P-AVR_assembly_programmingg/tree/master/0x03-7_SEGMENT_DISPLAY) - 7_SEGMENT_DISPLAY
