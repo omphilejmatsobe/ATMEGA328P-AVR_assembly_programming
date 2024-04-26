@@ -212,26 +212,26 @@ adcInit:
                           ;Analog Channel: ADC0
 
          ldi      R16, 0b10000101 ;Enable ADC
-         sts      ADCSRA, r16 ;ADC Prescaling Factor: 32
+         sts      ADCSRA, R16 ;ADC Prescaling Factor: 32
          ret
 
 adcRead:
     ;Reads the ADC value
 
          ldi      R16, 0b01000000 ;sets the ADSC flag to Trigger ADC Conversion process
-         lds      r17, ADCSRA
-         or       r17, r16
-         sts      ADCSRA, r17
+         lds      R17, ADCSRA
+         or       R17, R16
+         sts      ADCSRA, R17
          ret
 
 adcWait:
     ;Allows more time to read the value
 
-         lds      r17, ADCSRA ;Observe the ADIF flag, it gets set by hardware when ADC conversion completes
-         sbrs     r17, 4
+         lds      R17, ADCSRA ;Observe the ADIF flag, it gets set by hardware when ADC conversion completes
+         sbrs     R17, 4
          jmp      adcWait ;Keep checking until the flag is set by hardware
-         ldi      r16, 0b00010000 ;set the flag again to signal 'ready-to-be-cleared' by hardware
-         lds r17, ADCSRA       
-         or  r17, r16          
-         sts  ADCSRA, r17      
+         ldi      R16, 0b00010000 ;set the flag again to signal 'ready-to-be-cleared' by hardware
+         lds      R17, ADCSRA       
+         or       R17, R16          
+         sts      ADCSRA, R17      
          ret
