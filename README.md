@@ -9,7 +9,7 @@ Let's learn AVR assembly progamming with ATMEGA328P microprocessor. This is the 
 Assembly is a low-level programming language that is intended to communicate directly with a computer's hardware.
 Processors only understand machine language instructions, 1's and 0's therefore machine language
 is too complex for using in software development.
-Low-level assembly language is designed for a specific processors that represents various 
+Low-level assembly language is designed for specific processors that represents various 
 instructions in symbolic code and a more understandable form.
 
 
