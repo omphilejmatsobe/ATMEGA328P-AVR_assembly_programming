@@ -17,7 +17,7 @@ instructions in symbolic code and a more understandable form.
 * Assembly is not the easiest but can make things easier.
 
 ## Projects:
-4. [0x03](https://github.com/omphilejmatsobe/ATMEGA328P-AVR_assembly_programmingg/tree/master/0x03-7_SEGMENT_DISPLAY) - 7_SEGMENT_DISPLAY
+3. [0x02](https://github.com/omphilejmatsobe/ATMEGA328P-AVR_assembly_programming/tree/main/0x02-7_SEGMENT_DISPLAY) - 7_SEGMENT_DISPLAY
 
 
 ## Additional info :construction:
@@ -27,7 +27,7 @@ instructions in symbolic code and a more understandable form.
 - Arduino IDE
 
 
-### Try It On Your Machine computer:	
+### Try It On Your Machine Computer:	
 ```bash
 git clone https://github.com/omphilejmatsobe/ATMEGA328P-AVR_assembly_programming.git
 ```
