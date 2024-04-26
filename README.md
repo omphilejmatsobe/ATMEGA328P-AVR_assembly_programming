@@ -17,6 +17,7 @@ instructions in symbolic code and a more understandable form.
 * Assembly is not the easiest but can make things easier.
 
 ## Projects:
+1. [0x00](https://github.com/omphilejmatsobe/ATMEGA328P-AVR_assembly_programming/tree/main/0x02-7_SEGMENT_DISPLAY) - LED_DISPLAY
 3. [0x02](https://github.com/omphilejmatsobe/ATMEGA328P-AVR_assembly_programming/tree/main/0x02-7_SEGMENT_DISPLAY) - 7_SEGMENT_DISPLAY
 
 
