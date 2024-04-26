@@ -23,8 +23,8 @@ instructions in symbolic code and a more understandable form.
 ## Additional info :construction:
 ### Resources
 
-- AVR Studio
 - Arduino IDE
+- AVR Studio
 
 
 ### Try It On Your Machine Computer:	
