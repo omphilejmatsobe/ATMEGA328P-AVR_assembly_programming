@@ -1,4 +1,3 @@
-; Created: 2024/04/23 17:14:23
 ; Author : Omphile matsobe
 ;
 ;;; Allow me to use names like "PORTB" && "PORTD" for ports
